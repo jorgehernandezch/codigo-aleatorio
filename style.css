@@ -1,0 +1,36 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+span{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.codigo{
+	
+	max-width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.form-label-group{
+	margin-bottom: 20px;
+}
+
+.form-label-group input{
+	
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn {
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
