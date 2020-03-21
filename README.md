@@ -10,6 +10,8 @@ NOTES
 COMO FUNCIONA
 
     * Via POST se envia la cantidad de códigos que quieren ser generados
+    * El valor POST ingresa a un Bucle FOR y se repite cunatas veces el usuario envió.
+    * Dentro de ese bucle for, hay otro bucle for donde se genera el Código.
 
 DEV: Jorge Edo. Hernández - Grupo Alpha
 

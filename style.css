@@ -1,7 +1,11 @@
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 18px;
 }
 
+h2{
+	font-family: 'Righteous', cursive;
+}
 span{
 	display: block;
 	margin-left: auto;
@@ -9,12 +13,16 @@ span{
 }
 
 .codigo{
-	
 	max-width: 350px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 30px;
+}
+
+form {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 18px;
 }
 
 .form-label-group{
