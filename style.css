@@ -1,44 +1,98 @@
-body{
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 18px;
+/* Estilos Generales */
+html, body, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #272727;
 }
 
-h2{
-	font-family: 'Righteous', cursive;
-}
-span{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+.container{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
 }
 
 .codigo{
-	max-width: 350px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 30px;
+	width: 100%;
+	padding: 20px;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: xx-large;
+	font-weight: 700;
+	color: #BBBBBB;
+	text-align: center;
 }
 
 form {
-	font-family: 'Rajdhani', sans-serif;
-	font-size: 18px;
-}
-
-.form-label-group{
-	margin-bottom: 20px;
-}
-
-.form-label-group input{
-	
-	max-width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.btn {
-
 	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	max-width: 300px;
+	width: 100%;
+}
+
+form input{
+	width: 100%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+  	box-sizing: border-box;
+}
+
+p{
+	text-align: center;
+	margin: 0px;
+}
+p small{
+	font-family: 'Raleway', sans-serif;
+	color: #BBBBBB;
+	font-size: small;
+	font-weight: 200;
+}
+
+.envio{
+	padding: 0px;
+}
+
+button{
+	background-color: #03CDE9;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #018B9E;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-left: auto;
+	cursor: pointer;
+}
+
+a:link{
+	text-decoration:none;
+} 
+
+.table{
+	font-family: 'Raleway', sans-serif;
+	color: #BBBBBB;
+	font-size: medium;
+	font-weight: 300;
 }
