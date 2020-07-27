@@ -95,4 +95,5 @@ a:link{
 	color: #BBBBBB;
 	font-size: medium;
 	font-weight: 300;
+	max-width:600px;
 }
